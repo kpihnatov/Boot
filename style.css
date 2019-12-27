@@ -1,0 +1,362 @@
+        @import url('https://fonts.googleapis.com/css?family=Lobster&display=swap');
+        .topblock {
+            background-image: url(images/background.jpg);
+            width: 100%;
+        }
+        
+        h1 {
+            color: white;
+        }
+        
+        header {
+            text-align: center;
+            color: white;
+            padding-top: 50px;
+            padding-bottom: 25px;
+        }
+        
+        .navigation {
+            text-align: center;
+            color: white;
+        }
+        /*body {
+    color: black;
+    font-family: 'Open Sans', sans-serif;
+}
+
+*/
+        
+        i {
+            font-family: 'Lobster', cursive;
+            font-size: 70px;
+            text-align: center;
+            color: white;
+        }
+        
+        article {
+            color: grey;
+        }
+        
+        .font {
+            font-family: 'Open Sans', cursive;
+            font-size: xx-large;
+            text-align: center;
+            color: white;
+        }
+        
+        .fontsix1 {
+            font-size: 20px;
+        }
+        
+        .fontsix2 {
+            font-size: 20px;
+        }
+        
+        nav li {
+            list-style-position: inside;
+            font: 14px 'Open Sans', sans-serif;
+            padding: 10px;
+            color: white;
+        }
+        
+        .top-menu li {
+            display: inline-block;
+            padding: 10px 30px;
+            margin: 0;
+            color: white;
+        }
+        
+        .buttontop {
+            border-radius: 2000px;
+            margin: 20px;
+            padding-top: 20px;
+            padding-bottom: 20px;
+            padding-left: 80px;
+            padding-right: 80px;
+            border: none;
+            background-color: teal;
+            color: white;
+        }
+        
+        .buttontoppos {
+            text-align: center;
+            padding-bottom: 100px;
+        }
+        
+        .buttongrey {
+            background-color: gainsboro;
+            color: white;
+            border-radius: 1000px;
+            margin: 10px;
+            padding: 10px;
+            border: none;
+            text-align: center;
+        }
+        
+        .butgreypos {
+            margin-top: 30px;
+            margin-bottom: 60px;
+            margin-left: -1px;
+        }
+        
+        .sbcontainer {
+            background-color: rgb(235, 226, 226);
+            padding-left: 100px;
+            padding-right: 100px;
+        }
+        
+        .tbcontainer {
+            background-color: whitesmoke;
+            padding-bottom: 80px;
+            padding-left: 100px;
+            padding-right: 100px;
+        }
+        
+        .fourbcontainer {
+            background-color: rgb(195, 199, 195);
+            padding-top: 50px;
+            padding-left: 100px;
+        }
+        
+        .fbcontainer {
+            background-color: rgb(241, 239, 239);
+            padding-left: 100px;
+            padding-right: 100px;
+        }
+        
+        .sixbcontainer {
+            background-color: rgb(187, 187, 187);
+            padding-left: 100px;
+            padding-right: 100px;
+        }
+        
+        .sevenbcontainer {
+            background-color: cornsilk;
+            width: 100%;
+            padding-left: 100px;
+            padding-right: 100px;
+        }
+        
+        .ebcontainer {
+            background-color: teal;
+            width: 100%;
+            color: white;
+            padding-left: 100px;
+            padding-right: 100px;
+        }
+        
+        .secondblock {
+            display: inline-block;
+            width: 33%;
+            text-align: center;
+            padding-top: 50px;
+            padding-bottom: 50px;
+        }
+        
+        .thirdblock1 {
+            display: inline-block;
+            /*text-align: left;*/
+            padding-top: 50px;
+            width: auto;
+        }
+        
+        .thirdblock2 {
+            display: inline-block;
+            text-align: left;
+            padding-top: 50px;
+            width: auto;
+        }
+        
+        .fivesblock {
+            display: inline-block;
+            width: 33%;
+            padding-top: 50px;
+            padding-bottom: 50px;
+        }
+        
+        .sixblock {
+            display: inline-block;
+            text-align: left;
+            padding-top: 50px;
+            padding-bottom: 50px;
+            width: auto;
+            padding-left: 40px;
+        }
+        
+        .sevenblock1 {
+            display: inline-block;
+            padding-top: 50px;
+            padding-bottom: 50px;
+            width: auto;
+            padding-left: 90px;
+            padding-right: 10px;
+        }
+        
+        .sevenblock2 {
+            text-align: left;
+            display: inline-block;
+            padding-top: 50px;
+            padding-bottom: 50px;
+            width: auto;
+            padding-right: 160px;
+            padding-left: 20px;
+        }
+        
+        .eightblock1 {
+            text-align: center;
+            padding-top: 25px;
+        }
+        
+        .eightblock2 {
+            display: inline-block;
+            width: 100%;
+            margin: 0px;
+            padding-top: 50px;
+            padding-bottom: 50px;
+            display: flex;
+            justify-content: center;
+            justify-items: center;
+        }
+        
+        .techcrunch {
+            display: inline-block;
+            width: 25%;
+        }
+        
+        .promail {
+            display: inline-block;
+            width: 25%;
+            margin: 0px;
+        }
+        
+        .atlaspix {
+            margin: 0px;
+            display: inline-block;
+            width: 20%;
+        }
+        
+        .mashable {
+            display: inline-block;
+            width: 25%;
+            margin: 0px;
+        }
+        /*.header-lines div {
+        display: inline-block;
+        width: 33%;
+        text-align: center;
+    }*/
+        
+        .butreadmore {
+            color: white;
+            background-color: mediumaquamarine;
+            border-radius: 1000px;
+            /* margin: 10px;*/
+            padding: 10px;
+            border: none;
+            text-align: center;
+        }
+        
+        .butreadmorepos {
+            text-align: left;
+            margin-left: -1px;
+            margin-top: 25px;
+        }
+        
+        .copyright {
+            float: left;
+            padding-left: 90px;
+        }
+        
+        .sm {
+            float: right;
+            padding-right: 160px;
+        }
+        
+        .fb {
+            background-color: rgb(151, 150, 150);
+            display: inline-block;
+            width: 100%;
+            padding-top: 20px;
+            padding-bottom: 10px;
+        }
+        
+        .imgpeoples {
+            margin-bottom: 25px;
+        }
+        
+        .imgcar {
+            margin-bottom: 25px
+        }
+        
+        .retpos {
+            margin-top: 25px;
+        }
+        
+        .fctpos {
+            margin-top: 25px;
+        }
+        
+        .checkthisoutpos {
+            margin-bottom: 10px;
+        }
+        
+        .sixarticlepos,
+        .sevenarticlepos {
+            margin-top: 25px;
+        }
+        
+        .imgamateur {
+            width: 39px;
+            height: 42px;
+        }
+        
+        .imgprof {
+            width: 39px;
+            height: 42px;
+        }
+        
+        .imgcircle {
+            margin-right: 20px;
+        }
+        
+        .imgtg {
+            margin-right: 20px;
+        }
+        
+        .imgpencil {
+            margin-right: 20px;
+        }
+        
+        .haveagood {
+            font-family: 'Open Sans', cursive;
+            text-align: center;
+            padding-bottom: 25px;
+            padding-top: 40px;
+        }
+        
+        .fullsup {
+            font-size: 24px;
+        }
+        /* .topblocklines {
+        display: inline-block;
+        background-color: chartreuse;
+        width: 100%;
+    }
+    */
+        
+        .justfor {
+            color: white;
+            font-size: 12px;
+            text-align: center;
+            display: inline-block;
+            width: 100%;
+            padding-bottom: 45px;
+        }
+        
+        @media (min-width: 500px) and (max-width: 767px) {
+            .thirdblock1,
+            .fivesblock {
+                margin: 0 25% 0 25%;
+                width: 50%;
+            }
+        }
